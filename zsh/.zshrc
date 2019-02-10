@@ -58,3 +58,8 @@ export PATH="/usr/local/opt/bison/bin:$PATH"
 export PATH="$PATH:$HOME/bin"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="/usr/local/opt/flutter/bin/:$PATH"
+
+#gpgconf --launch gpg-agent
+#set -e SSH_AUTH_SOCK
+#set -U -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
