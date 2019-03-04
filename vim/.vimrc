@@ -42,4 +42,5 @@ syntax on
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'airblade/vim-gitgutter'
+Plug 'dart-lang/dart-vim-plugin'
 call plug#end()
