@@ -18,7 +18,11 @@ set cursorline
 set hlsearch
 set wildmode=longest,full
 set wildmenu
+set tag=tags
 set t_Co=256
+set smartcase
+au InsertEnter * set noignorecase
+au InsertLeave * set ignorecase
 filetype indent on
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Yellow ctermbg=NONE
