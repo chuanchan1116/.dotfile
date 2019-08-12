@@ -63,3 +63,6 @@ export PATH="/usr/local/opt/flutter/bin/:$PATH"
 #gpgconf --launch gpg-agent
 #set -e SSH_AUTH_SOCK
 #set -U -x SSH_AUTH_SOCK ~/.gnupg/S.gpg-agent.ssh
+export PATH="/usr/local/opt/binutils/bin:$PATH"
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

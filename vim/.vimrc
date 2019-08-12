@@ -21,6 +21,8 @@ set wildmenu
 set tag=tags
 set t_Co=256
 set smartcase
+set timeoutlen=1000
+set ttimeoutlen=10
 au InsertEnter * set noignorecase
 au InsertLeave * set ignorecase
 filetype indent on
@@ -47,4 +49,5 @@ call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'airblade/vim-gitgutter'
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'scrooloose/nerdtree'
 call plug#end()
