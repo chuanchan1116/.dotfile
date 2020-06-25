@@ -50,4 +50,6 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'airblade/vim-gitgutter'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'scrooloose/nerdtree'
+Plug 'davidhalter/jedi-vim'
+Plug 'rust-lang/rust.vim'
 call plug#end()
