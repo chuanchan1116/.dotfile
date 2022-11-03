@@ -18,6 +18,8 @@ set wildmenu
 set tag=tags
 set t_Co=256
 set smartcase
+set ignorecase
+set infercase
 set timeoutlen=1000
 set ttimeoutlen=10
 au InsertEnter * set noignorecase
@@ -49,4 +51,11 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'scrooloose/nerdtree'
 Plug 'davidhalter/jedi-vim'
 Plug 'rust-lang/rust.vim'
+Plug 'google/vim-maktaba'
+Plug 'bazelbuild/vim-bazel'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'edkolev/promptline.vim'
 call plug#end()
+
+let g:airline_powerline_fonts = 1
